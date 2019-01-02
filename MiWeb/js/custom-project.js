@@ -104,7 +104,7 @@
 		
 		//Slider
 						
-		$("#owl-portfolio-slider").owlCarousel({
+		$(".owl-carousel").owlCarousel({
 							  
 			pagination:true,
 			slideSpeed : 300,
