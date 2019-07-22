@@ -799,6 +799,15 @@ ul.slimmenu.collapsed li > ul {
 	padding:8px 20px;
 	border-radius:2px;
 }
+p.primeralinea {
+    text-indent: 75px;
+	font-style: italic;
+	line-height: 0.5px;
+}
+p.sangria {
+	text-indent: 75px;
+	line-height: 0.5px;
+}
 .link-down{
 	position:absolute;
 	width:34px;
@@ -821,7 +830,7 @@ ul.slimmenu.collapsed li > ul {
 }
 .about-wrap h5{ 
 	text-align:left;
-	padding-left:100px;
+	padding-left:80px;
 	padding-bottom:20px;
 }
 .about-wrap p{ 
@@ -1566,6 +1575,29 @@ ul.slimmenu.collapsed li > ul {
 
 .parallax-project {
 	background: url('../images/portfolio/TheInvaders/FINAL_BIEN_536.png') repeat fixed;
+	background-size: cover;
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	width:100%;  
+}
+
+.parallax-houdini {
+	background: url('../images/portfolio/Houdini/TituloTheThing.png') repeat fixed;
+	background-size: cover;
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	width:100%;  
+}
+.parallax-VFX {
+	background: url('../images/portfolio/MayaVFX/Tornado.png') repeat fixed;
 	background-size: cover;
 	position: absolute;
 	top: 0; 
